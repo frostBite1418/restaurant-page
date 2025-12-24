@@ -1,0 +1,1 @@
+alert("The website is running correctly")
