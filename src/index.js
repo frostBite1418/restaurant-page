@@ -1,1 +1,1 @@
-alert("The website is running correctly")
+import "./styles.css"

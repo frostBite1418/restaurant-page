@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10vh;
+}
+
+button {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(35, 27, 27);
+}
+
+button:focus {
+    color: #C0392B;
+    text-decoration: underline;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home {
+    margin: 1%;
+}
+
+.home p {
+    max-width: 60ch;
+}
+
+img {
+    max-width: 500px;
+    border-radius: 5px;
+}
