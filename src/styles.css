@@ -27,11 +27,6 @@ button {
     color: rgb(35, 27, 27);
 }
 
-button:focus {
-    color: #C0392B;
-    text-decoration: underline;
-}
-
 #content {
     display: flex;
     flex-direction: column;
