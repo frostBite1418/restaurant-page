@@ -47,15 +47,23 @@ button {
 
 .home,
 .menu,
-.about {
+.contacts {
     margin: 1%;
     flex-grow: 1;
 }
 
 .home p,
 .menu p,
-.about p {
+.contacts p {
     max-width: 60ch;
+}
+
+.contacts {
+    height: 80vh;
+}
+
+.contacts p {
+    margin-bottom: 10%;
 }
 
 img {
