@@ -6,9 +6,20 @@
     line-height: 1.5;
 }
 
+:root {
+    --main-color: #C0392B;
+    --main-color-2: #F4B400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     display: flex;
     justify-content: center;
+    background-color: var(--main-color);
 }
 
 nav {
@@ -31,17 +42,32 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 
-.home {
+.home,
+.menu,
+.about {
     margin: 1%;
+    flex-grow: 1;
 }
 
-.home p {
+.home p,
+.menu p,
+.about p {
     max-width: 60ch;
 }
 
 img {
     max-width: 500px;
     border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    padding: 5px;
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    justify-content: space-around;
 }
